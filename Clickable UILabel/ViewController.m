@@ -54,28 +54,28 @@
 #pragma mark :: create user TapGestureRecognizer method
 - (void)labelClick
 {
-    //[self createMyUILabel];
+    [self createMyUILabel];
 }
 
-//#pragma mark :: Create second UILabel
-//-(void) createMyUILabel
-//{
-//    myLabelTwo = [[UILabel alloc] initWithFrame:CGRectMake(20, 120, 300-20, 50)];
-//    myLabelTwo.backgroundColor = [UIColor grayColor];
-//    myLabelTwo.textAlignment = NSTextAlignmentCenter;
-//    myLabelTwo.textColor = [UIColor greenColor];
-//    myLabelTwo.numberOfLines = 0;
-//    myLabelTwo.text = @"Successfully submit :)";
-//    
-//#pragma mark :: set_UILabel_borderWidth_Border_color_cornerRadious
-//    
-//    myLabelTwo.layer.borderWidth = 1.00f;
-//    myLabelTwo.layer.borderColor = [UIColor brownColor].CGColor;
-//    myLabelTwo.layer.cornerRadius = 5.00f;
-//    
-//    [self.view addSubview: myLabelTwo];
-//    
-//}
+#pragma mark :: Create second UILabel
+-(void) createMyUILabel
+{
+    myLabelTwo = [[UILabel alloc] initWithFrame:CGRectMake(20, 160, 300-20, 50)];
+    myLabelTwo.backgroundColor = [UIColor grayColor];
+    myLabelTwo.textAlignment = NSTextAlignmentCenter;
+    myLabelTwo.textColor = [UIColor greenColor];
+    myLabelTwo.numberOfLines = 0;
+    myLabelTwo.text = @"Successfully submit :)";
+    
+#pragma mark :: set_UILabel_borderWidth_Border_color_cornerRadious
+    
+    myLabelTwo.layer.borderWidth = 1.00f;
+    myLabelTwo.layer.borderColor = [UIColor brownColor].CGColor;
+    myLabelTwo.layer.cornerRadius = 5.00f;
+    
+    [self.view addSubview: myLabelTwo];
+    
+}
 
 
 
