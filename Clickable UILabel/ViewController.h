@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+@property UILabel *myClickableLabel;
 
 @end
 
